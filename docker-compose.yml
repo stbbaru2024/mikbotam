@@ -1,0 +1,8 @@
+version: "2.1"
+services:
+  mikhmon:
+    image: stbbaru2024/mikbotam:latest
+    container_name: mikbotam
+    ports:
+      - 8888:80
+    restart: unless-stopped
